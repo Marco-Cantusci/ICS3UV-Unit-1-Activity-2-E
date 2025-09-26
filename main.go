@@ -21,7 +21,8 @@ func main() {
 	fmt.Println("To do this, we will need to multiply the dogs weight by 2.2.");
 
 	// The math
-	fmt.Println(("34.5 * 2.2 = ") + fmt.Sprint(34.5 * 2.2));
+	fmt.Println("34.5 * 2.2 = " + fmt.Sprint(34.5*2.2));
 
 	fmt.Println("\nDone.");
+	
 }
